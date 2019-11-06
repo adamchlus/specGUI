@@ -8,7 +8,7 @@ It was developed as part of a lab for high school students demonstrating the opt
 Below is a gif of the GUI in action, visible wavelengths are colored by the color we see and blues in the
 infrared are a function of water aborption, more blue = more water absorption at that wavelength.
 
-[](https://github.com/adamchlus/specGUI/gui_example.gif)
+![](https://github.com/adamchlus/specGUI/gui_example.gif)
 
 The GUI itself is run by a local webserver and uses d3.js to display the spectra. specGUI does not
 directly communicate with the spectrometer to collect data and the manufacturer software needs to be
