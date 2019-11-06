@@ -1,0 +1,98 @@
+<! DOCTYPE html>
+
+<html>
+<head>
+    <script src="../static/lib/js/d3.v4.js"> </script>
+    <script src="../static/lib/js/jquery-3.2.1.min.js"> </script>
+    
+    <link rel="shortcut icon" href="">
+</head>
+    
+<style>
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;    
+}
+    
+.button1 {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+width: 20%;
+float: right!important;
+}
+    
+.button1:hover {
+    background-color: #3e8e41;
+    }
+    
+.button2 {
+background-color: #0099ff;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+width: 20%;
+float: left!important;
+    }
+    
+ 
+.button2:hover {
+background-color: #0066cc;
+}
+    
+</style>
+
+    
+<body>
+    
+<script src="../static/js/main.js?1500"> </script>
+    
+
+
+<!--
+<input name="downButton" 
+           type="button" 
+           class= "button2"
+           value="Down sample" 
+           onclick="Dsample()" />
+ 
+
+<input name="upButton" 
+       type="button" 
+       class= "button2"
+       value="Up sample" 
+       onclick="Usample()" />
+-->
+
+<input name="prevButton" 
+           type="button" 
+           class= "button2"
+           value="❮ Previous spectra" 
+           onclick="previous()" />
+
+<input name="nextButton" 
+           class= "button1"
+           type="button" 
+           value="Next spectra ❯" 
+           onclick="next()" />    
+    
+    
+    
+
+</body>
+</html>
