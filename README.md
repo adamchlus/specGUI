@@ -1,6 +1,6 @@
 # specGUI
 
-specGUI is a web based GUI for plotting spectra in real time from a number of spectrometer
+specGUI is a browser based GUI for plotting spectra in real time from a number of spectrometer
 manufacturers. The idea behind it was to display spectra in a unified way across all spectrometer
 brands and in a way in which non-experts (ie. high schoolers) would be able to understand the output.
 It was developed as part of a lab for high school students demonstrating the optical properties of leaves.
