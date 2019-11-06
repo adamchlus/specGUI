@@ -1,5 +1,6 @@
 # specGUI
 
+<html>
 
 <div id="text"></div>
 
@@ -8,3 +9,5 @@
 <script src="/main_example.js"> </script>
 
 <div id="text"></div>
+
+</html>
